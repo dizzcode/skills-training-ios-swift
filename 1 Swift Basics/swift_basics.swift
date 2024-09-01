@@ -14,7 +14,7 @@ let age = 30
 print("\(name) \(age)")
 
 
-print("----------------[ #02 : Data Types ]")
+print("\n----------------[ #02 : Data Types ]")
 /*
 * Swift is type-safe, meaning that it requires you to be explicit about the types of values your code can work with.
 */
@@ -26,7 +26,7 @@ let pi: Double = 3.14159
 print(pi)
 
 
-print("----------------[ #03 : Basic Operators ]")
+print("\n----------------[ #03 : Basic Operators ]")
 /*
 * Arithmetic Operators : +, -, *, /, %
 * Comparison Operators : ==, !=, >, <, >=, <=
@@ -43,4 +43,15 @@ let isGreater = (10 > 5)  // true
 print(remainder)
 
 
+print("\n----------------[ #04 : Conditional Statements ]")
+// Use if, else if, and else to execute code based on certain conditions.
+let temperature = 75
+
+if temperature > 80 {
+    print("It's hot outside!")
+} else if temperature < 60 {
+    print("It's cold outside!")
+} else {
+    print("The weather is nice.")
+}
 
