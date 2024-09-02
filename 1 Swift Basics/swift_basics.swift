@@ -55,3 +55,21 @@ if temperature > 80 {
     print("The weather is nice.")
 }
 
+
+print("\n----------------[ #05 : Loops ]")
+/*
+* For Loop   : Iterates over a range of numbers.
+* While Loop : Repeats as long as a condition is true.
+*/
+
+// For loop
+for i in 1...5 {
+    print("This is iteration \(i)")
+}
+
+// While loop
+var counter = 5
+while counter > 0 {
+    print("Counter is at \(counter)")
+    counter -= 1
+}
