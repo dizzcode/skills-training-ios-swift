@@ -73,3 +73,15 @@ while counter > 0 {
     print("Counter is at \(counter)")
     counter -= 1
 }
+
+print("\n----------------[ #06 : Functions ]")
+/*
+* Functions let you encapsulate logic and reuse it.
+*/
+
+func greet(person: String) -> String {
+    return "Hello, \(person)!"
+}
+
+let message = greet(person: "Alice")
+print(message)
