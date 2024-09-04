@@ -85,3 +85,18 @@ func greet(person: String) -> String {
 
 let message = greet(person: "Alice")
 print(message)
+
+
+print("\n----------------[ #07 : Optionals ]")
+/*
+* Swift uses optionals to handle the absence of a value.
+*/
+var optionalName: String? = "John"
+//print(optionalName)  // Prints Optional("John")
+
+// Unwrapping an Optional
+if let name = optionalName {
+    print("Hello, \(name)!")
+} else {
+    print("Name is nil.")
+}
