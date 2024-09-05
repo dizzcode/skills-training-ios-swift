@@ -100,3 +100,11 @@ if let name = optionalName {
 } else {
     print("Name is nil.")
 }
+
+print("\n----------------[ #08 : Arrays ]")
+/*
+* An array stores multiple values in an ordered list.
+*/
+var fruits = ["Apple", "Banana", "Cherry"]
+fruits.append("Date")
+print(fruits[0])  // Prints "Apple"
