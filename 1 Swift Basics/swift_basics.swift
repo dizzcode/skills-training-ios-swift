@@ -108,3 +108,16 @@ print("\n----------------[ #08 : Arrays ]")
 var fruits = ["Apple", "Banana", "Cherry"]
 fruits.append("Date")
 print(fruits[0])  // Prints "Apple"
+
+
+print("\n----------------[ #09 : Dictionaries ]")
+/*
+* A dictionary stores key-value pairs.
+*/
+var capitals = [
+"USA": "Washington, D.C.", 
+"France": "Paris", 
+"Japan": "Tokyo"
+]
+capitals["UK"] = "London"
+print(capitals["France"]!)  // Prints "Paris"
